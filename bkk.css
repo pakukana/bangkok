@@ -1,0 +1,102 @@
+ul{
+    list-style: none;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: dimgrey;
+}
+li{
+    color: white;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: black;
+}
+
+.top-img container{
+    width: 100%;
+    
+}
+
+.top-img{
+    padding-top: 80px;
+    padding-bottom: 235px;
+    background-image: url(bkknight.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.top-img h1{
+    font-size: 100px;
+    opacity: 0.8;
+}
+
+.thai{
+    height: 600px;
+    text-align: center;
+    padding-top: 50px;
+}
+.thai h2{
+    color: cornflowerblue;
+}
+.thai container{
+    width:100%;
+}
+.thai-img img{
+    width:210px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.thai-area{
+    float: left;
+    width:30%;
+    margin-left:35px;
+}
+
+img{
+    cursor: pointer;
+}
+@media(max-width:1000px){
+    .thai-area{
+        width:100%;
+    }
+}
+
+.text-area{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.text-area h3{
+    font-weight: normal;
+}
+
+.btn{
+    background-color: coral;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.btn:active{
+    box-shadow: none;
+    position: relative;
+    top:5px;
+}
+
+footer{
+    padding-top: 20px;
+    height: 80px;
+    background-color: darkgrey;
+    text-align: center;
+}
